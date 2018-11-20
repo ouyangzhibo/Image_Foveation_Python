@@ -48,7 +48,7 @@ def foveat_img(im, fixs):
     
     # compute coef
     p = 7.5
-    k = 1.5
+    k = 3
     alpha = 2.5
 
     x = np.arange(0, width, 1, dtype=np.float32)
@@ -115,7 +115,7 @@ if __name__ == "__main__":
 
     im_path = sys.argv[1]
     im = cv2.imread(im_path)
-    im = cv2.resize(im, (512, 320), cv2.INTER_CUBIC)
+    # im = cv2.resize(im, (512, 320), cv2.INTER_CUBIC)
     xc, yc = int(im.shape[1]/2), int(im.shape[0]/2)
 
     im = foveat_img(im, [(xc, yc)])
