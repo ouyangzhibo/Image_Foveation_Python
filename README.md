@@ -2,6 +2,7 @@
 Python implementation of image retina transformation. For detailed algorithm, please refer to this paper:
 
 > Perry, Jeffrey S., and Wilson S. Geisler. "Gaze-contingent real-time simulation of arbitrary visual fields." Human vision and electronic imaging VII. Vol. 4662. International Society for Optics and Photonics, 2002.
+
 > Jiang, Ming, et al. "Salicon: Saliency in context." Proceedings of the IEEE conference on computer vision and pattern recognition. 2015.
 
 Prerequisites
