@@ -29,7 +29,7 @@ def pyramid(im, sigma=1, prNum=6):
     # upsample
     for i in range(1, 6):
         curr_im = pyramids[i]
-        for j in xrange(i):
+        for j in range(i):
             if j < i-1:
                 im_size = (curr_im.shape[1]*2, curr_im.shape[0]*2)
             else:
